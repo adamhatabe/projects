@@ -1,5 +1,3 @@
-// pages/add-note.tsx
-
 import Header from "@/app/components/Header";
 import NoteForm from "@/app/components/NoteForm";
 import axios from "axios";

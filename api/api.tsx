@@ -3,7 +3,7 @@ import axios from "axios";
 const deleteNote = (id: number) => {
   const isConfirmed = confirm(`Are you sure you want to delete this note?`);
   if (!isConfirmed) {
-    return; // If user cancels, exit function
+    return; 
   }
   axios({
     method: "DELETE",

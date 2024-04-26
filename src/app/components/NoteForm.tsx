@@ -17,8 +17,8 @@ const NoteForm: React.FC<NoteFormProps> = ({ onSubmit, initialNote = {} }) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     onSubmit({ title, content });
-    setTitle(""); // Clear input after submission
-    setContent(""); // Clear textarea after submission
+    setTitle(""); 
+    setContent("");
   };
 
   return (

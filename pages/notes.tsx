@@ -1,5 +1,3 @@
-// pages/index.tsx
-
 import "tailwindcss/tailwind.css";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
